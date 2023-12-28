@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.search-price {
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px 0px #97979733;
+  margin: 100px 150px 0px 150px;
+  display: flex;
+  align-items: center;
+  padding: 36px !important;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.input-field {
+  height: 64px;
+  margin-right: 22px !important;
+  justify-content: center;
+}
+.search-price .btn {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 250px;
+  height: 73px;
+  padding: 28px;
+  border-radius: 12px;
+}
+.search-price .btn.btn-check-price {
+  background: #2c2d5b;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-radius: 12px !important;
+  border: 1px solid #979797 !important;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 15px !important;
+  letter-spacing: 0em !important;
+  text-align: center !important;
+  color: #979797 !important;
+}
+.origin .css-i4bv87-MuiSvgIcon-root,
+.destination .css-i4bv87-MuiSvgIcon-root {
+  color: #2c2d5b;
+}
+#outlined-adornment-amount,
+#outlined-adornment-destination,
+#outlined-adornment-weight {
+  color: #979797;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.MuiInputBase-root {
+  height: 64px;
+  width: 250px;
+}
+
+@media screen and (max-width: 1300px) {
+  .search-price .btn {
+    /* margin-top: 10px; */
+  }
+  .input-field {
+    width: 200px !important;
+    height: 64px;
+  }
+  .MuiInputBase-root  {
+    width: 200px !important;
+    height: 50px;
+  }
+  .search-price .btn {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 7px
+  }
+}
+@media screen and (max-width: 1200px) {
+  .search-price{
+    max-width: 90% !important;
+  }
+}
